@@ -1,0 +1,257 @@
+# Translation of Plugins - Product Import Export for WooCommerce - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Product Import Export for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-12 15:01:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Product Import Export for WooCommerce - Stable (latest release)\n"
+
+#: class-wt-product-review-request.php:57
+msgid "Remind me later"
+msgstr "Herinner mij er later aan"
+
+#: class-wt-product-review-request.php:59
+msgid "Review now"
+msgstr "Beoordeel nu"
+
+#: admin/modules/product/product.php:810 admin/modules/product/product.php:812
+#: admin/modules/product_review/product_review.php:468
+msgid "All status"
+msgstr "Alle statussen"
+
+#: admin/modules/product/product.php:842
+msgid "Any tag"
+msgstr "Elke tag"
+
+#: admin/modules/product/product.php:831
+msgid "Any category"
+msgstr "Elke categorie"
+
+#: admin/modules/product/product.php:830
+msgid "Product categories"
+msgstr "Productcategorieën"
+
+#: admin/modules/product/product.php:799
+msgid "All products"
+msgstr "Alle producten"
+
+#: admin/modules/product/product.php:798
+#: admin/modules/product_review/product_review.php:421
+#: admin/views/admin-settings-marketing.php:67
+#: admin/views/admin-settings-marketing.php:80
+#: admin/views/admin-settings-marketing.php:93
+#: admin/views/admin-settings-marketing.php:281
+#: admin/views/admin-settings-marketing.php:294
+#: admin/views/admin-settings-marketing.php:307
+#: admin/views/admin-settings-marketing.php:437
+#: admin/views/admin-settings-marketing.php:450
+#: admin/views/admin-settings-marketing.php:463 admin/views/market.php:29
+msgid "Products"
+msgstr "Producten"
+
+#: class-wt-product-review-request.php:58
+msgid "Not interested"
+msgstr "Niet geïnteresseerd"
+
+#: class-wt-product-review-request.php:54
+msgid "Hey, we at %sWebToffee%s would like to thank you for using our plugin. We would really appreciate if you could take a moment to drop a quick review that will inspire us to keep going."
+msgstr "Hallo, wij van %sWebToffee%s willen je bedanken voor het gebruik van onze plugin; wij zouden het erg waarderen als je een momentje hebt om een snelle beoordeling te geven, die ons zal inspireren om verder te gaan."
+
+#: admin/modules/product/product.php:852
+msgid "Product status"
+msgstr "Product status"
+
+#: admin/modules/product/product.php:841
+msgid "Product tags"
+msgstr "Product tags"
+
+#: admin/class-wt-import-export-for-woo-admin.php:134
+#: admin/modules/import/views/main.php:80
+#: admin/views/_save_template_popup.php:29
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:46
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: admin/class-wt-import-export-for-woo-admin.php:473
+#: admin/views/admin-settings-help.php:17
+#: admin/views/admin-settings-help.php:20 product-import-export-for-woo.php:164
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: admin/modules/export/export.php:246
+msgid "Limit"
+msgstr "Limiet"
+
+#: admin/modules/export/export.php:298 admin/modules/import/import.php:235
+msgid "Delimiter"
+msgstr "Scheidingsteken"
+
+#: admin/views/admin-settings-help.php:28
+msgid "Contact Us"
+msgstr "Neem contact met ons op"
+
+#: helpers/class-wt-import-export-helper.php:25
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:282
+msgid "Other"
+msgstr "Overige"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:236
+msgid "Have used it successfully and aint in need of it anymore"
+msgstr "Heb het met succes gebruikt en heb het niet meer nodig"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:246
+msgid "I couldn't understand how to make it work"
+msgstr "Ik begreep niet hoe ik hem werkend kon krijgen"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:248
+msgid "Would you like us to assist you?"
+msgstr "Wil je dat wij je helpen?"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:252
+msgid "I found a better plugin"
+msgstr "Ik heb een betere plugin gevonden"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:254
+msgid "Which plugin?"
+msgstr "Welke plugin?"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:258
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Deze plugin is geweldig, maar ik heb een specifieke functie nodig die jullie niet ondersteunen"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:264
+msgid "The plugin is not working"
+msgstr "De plugin werkt niet"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:276
+msgid "The plugin didn't work as expected"
+msgstr "De plugin werkte niet zoals verwacht"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:41
+msgid "I rather wouldn't say"
+msgstr "Dat zeg ik liever niet"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:141
+msgid "Deactivate and leave a review"
+msgstr "Deactiveer en geef een beoordeling"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:234
+msgid "Used it successfully. Don't need anymore."
+msgstr "Heb het met succes gebruikt. Heb het niet meer nodig."
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:45
+msgid "Submit & Deactivate"
+msgstr "Verzenden & deactiveren"
+
+#. Author of the plugin
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:25
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Als je een momentje hebt, laat ons dan weten waarom je de plugin deactiveert:"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:278
+msgid "What did you expect?"
+msgstr "Wat had je verwacht?"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:272
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:284
+msgid "Could you tell us a bit more?"
+msgstr "kun je ons iets meer vertellen?"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:270
+msgid "It's not what I was looking for"
+msgstr "Het is niet waar ik naar op zoek was"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:266
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Kun je ons nog wat meer vertellen wat niet werkt?"
+
+#: includes/class-wf-prodimpexp-plugin-uninstall-feedback.php:260
+msgid "Could you tell us more about that feature?"
+msgstr "kun je ons meer vertellen over die functie?"
+
+#: product-import-export-for-woo.php:166
+msgid "Premium Upgrade"
+msgstr "Premium upgrade"
+
+#. Description of the plugin
+msgid "Import and Export Products From and To your WooCommerce Store."
+msgstr "Importeer en exporteer producten vanuit en naar de WooCommerce winkel."
+
+#. Author URI of the plugin
+msgid "https://www.webtoffee.com/product/product-import-export-woocommerce/"
+msgstr "https://www.webtoffee.com/product/product-import-export-woocommerce/"
+
+#: admin/modules/product/product.php:219
+#: admin/modules/product_categories/product_categories.php:176
+#: admin/modules/product_review/product_review.php:176
+#: admin/modules/product_tags/product_tags.php:176
+msgid "Product"
+msgstr "Product"
+
+#: admin/modules/product/product.php:706
+msgid "SKU"
+msgstr "SKU"
+
+#: admin/modules/import/views/main.php:45
+msgid "Row"
+msgstr "Rij"
+
+#: admin/views/admin-settings-help.php:18
+msgid "Refer to our documentation to set up and get started."
+msgstr "Raadpleeg onze documentatie om in te stellen en aan de slag te gaan"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/product-import-export-for-woo/"
+msgstr "https://wordpress.org/plugins/product-import-export-for-woo/"
+
+#: admin/views/market.php:53
+msgid "Fast and Superior Support"
+msgstr "Snelle en superieure ondersteuning"
+
+#: admin/views/market.php:52
+msgid "30 Day Money Back Guarantee"
+msgstr "30-dagen geld terug garantie"
+
+#: admin/views/admin-settings-help.php:26
+msgid "We would love to help you on any queries or issues."
+msgstr "We helpen je graag verder met eventuele vragen of problemen."
+
+#: admin/class-wt-import-export-for-woo-admin.php:474
+#: product-import-export-for-woo.php:165
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: admin/modules/history/views/_log_table.php:23
+msgid "Importing item conflicts with an existing post."
+msgstr "Het importeren van product(ID) conflicteert met een bestaand bericht."
+
+#: admin/modules/export/export.php:256
+msgid "Offset"
+msgstr "Offset"
+
+#: admin/views/market.php:40
+msgid "Reviews"
+msgstr "Beoordelingen"
+
+#: admin/modules/export/views/_export_mapping_page.php:22
+#: admin/modules/export/views/_export_meta_step_page.php:16
+msgid "Column"
+msgstr "Kolom"
+
+#: admin/views/admin-settings-marketing.php:193
+#: admin/views/admin-settings-marketing.php:366
+#: admin/views/admin-settings-marketing.php:521
+msgid "Automatic scheduled import & export"
+msgstr "Automatisch geplande import & export"
+
+#. Plugin Name of the plugin
+msgid "Product Import Export for WooCommerce"
+msgstr "Product Import Export for WooCommerce"
