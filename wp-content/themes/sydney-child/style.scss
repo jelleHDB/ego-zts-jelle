@@ -1,0 +1,659 @@
+/*
+ Theme Name:   Helemaal de bom theme
+ Theme URI:    https://helemaaldebom.nl/
+ Description:  Helemaal de bom theme
+ Author:       Bas Romeijn
+ Author URI:   https://www.helemaaldebom.nl/
+ Template:     sydney
+ Version:      1.0.0
+ Tags:         plaats, hier, jouw, tags, gescheiden, door, kommas
+ Text Domain:  sydney-child
+*/
+
+/* =Eigen CSS hier beneden plaatsen
+-------------------------------------------------------------- */
+
+/* BEGIN: VARIABLES */
+
+$mainFont : 'Alegreya Sans', sans-serif;
+$mainColor : #F47F22;
+
+/* BEGIN: BASICS */
+ p, a, strong, li, h1, h2, h3, h4, h5 h6 {
+	font-family: $mainFont !important;
+}
+
+/* START: HEADER */
+#masthead .container {
+    max-width: 1600px;
+    width: 100%;
+}
+
+.nav-menu li a {
+    font-size: 20px;
+}
+
+/* START: BUTTON */
+.button {
+    background-color: $mainColor !important;
+    border: 1px solid $mainColor !important;
+    border-radius: 2px !important;
+    font-family: $mainFont;
+}
+
+.button:hover {
+    background: transparent !important;
+    color: $mainColor !important;
+}
+
+.roll-button {
+    font-size: 20px !important;
+}
+
+/* Footer adjustments */
+#icon_instagram {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  #footer {
+    background-color: black;
+  }
+  
+  .titel-footer-1 {
+    color: white;
+    font-family: $mainFont;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  #footer-kolom-1 a {
+    color: white;
+    text-transform: uppercase;
+    font-family: $mainFont;
+    display: block;
+  }
+  
+  #footer-kolom-1 a:hover {
+    color: $mainColor;
+  }
+  
+  #icon_linkedin,
+  #icon_instagram,
+  #icon_facebook {
+    max-width: 40px;
+    width: 100%;
+    max-height: 40px;
+    height: 100%;
+  }
+  
+  #footer-kolom-3 h2 {
+    margin: 0px 0px 5px 0px;
+  }
+  
+  
+  #logo-footer {
+    max-width: 135px;
+    width: 100%;
+    max-height: 170px;
+    height: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  #footer-kolom-3 h2 {
+    color: white;
+    font-family: $mainFont;
+    text-transform: uppercase;
+  }
+  
+  #footer-kolom-3 p {
+    color: white;
+    font-family: $mainFont;
+  }
+  
+  #telefoon_icon,
+  #mail-icon {
+    max-width: 20px;
+    width: 100%;
+    max-height: 20px;
+    height: 100%;
+  }
+  
+  #footer-kolom-3 a {
+    color: white;
+    font-family: $mainFont;
+  }
+  
+  #footer-kolom-3 a:hover {
+    color: $mainColor;
+  }
+  
+  #icon_linkedin:hover,
+  #icon_instagram:hover,
+  #icon_facebook:hover {
+    background-color: $mainColor;
+    border-radius: 30px;
+    border: 2px solid $mainColor;
+  }
+
+  .adres_regel_1 {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 25px;
+  }
+
+  .adres_regel_2 {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0px !important;
+  }
+
+  .adres_regel_3 {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 5px !important;
+  }
+
+  #logo-footer-c1 {
+    max-width: 200px;
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Footer adjustments responsive */
+  @media only screen and (max-width: 900px) {
+    #footer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .titel-footer-3 {
+      font-size: 20px;
+      margin-top: 50px;
+    }
+    #logo-footer {
+      margin-top: 40px;
+    }
+    #footer-kolom-3 p {
+      margin: 0px;
+    }
+    #footer-kolom-3 {
+      margin-top: 30px;
+    }
+    #footer-kolom-2 {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    #footer-kolom-1,
+  #footer-kolom-2,
+  #footer-kolom-3 {
+      max-width: 550px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  @media only screen and (max-width: 1600px) and (min-width: 900px) {
+    #footer-kolom-1,
+  #footer-kolom-2,
+  #footer-kolom-3 {
+      float: left;
+      width: 33.33%;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 50px;
+    }
+    #content-in-footer:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    #footer-kolom-3 h2 {
+      font-size: 20px;
+    }
+    #footer-kolom-3 {
+      text-align: right;
+    }
+    #footer-kolom-3 p {
+      margin: 0px !important;
+    }
+    #footer-kolom-2 {
+      text-align: center !important;
+    }
+    #logo-footer {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #footer {
+      padding-bottom: 50px;
+    }
+  }
+  @media only screen and (min-width: 1600px) {
+    #footer-kolom-1,
+  #footer-kolom-2,
+  #footer-kolom-3 {
+      float: left;
+      width: 33.33%;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 75px;
+    }
+    #content-in-footer:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    #content-in-footer {
+      max-width: 1600px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #footer-kolom-3 h2 {
+      font-size: 20px;
+    }
+    #footer-kolom-3 {
+      text-align: right;
+    }
+    #footer-kolom-3 p {
+      margin: 0px !important;
+    }
+    #footer-kolom-2 {
+      text-align: center !important;
+    }
+    #logo-footer {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #footer {
+      padding-bottom: 75px;
+    }
+}
+
+/* START: SLIDER */
+#content-slider h2 {
+    color: white;
+    font-weight: 500;
+}
+
+.titel_slider_1 {
+    margin-top: 0px;
+}
+
+/* START: RESPONSIVE SLIDER */
+
+@media only screen and (max-width: 900px) {
+    #home-slider {
+        padding: 50px 0px 60px 0px;
+    }
+
+    #content-slider h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #content-slider {
+        padding: 0px 20px 0px 50px;
+    }
+
+    #content-slider .fas {
+        margin-right: 10px;
+    }
+
+    .informatie_3-home {
+        margin-bottom: 30px !important;
+    }
+
+    .slider-link {
+        color: white;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 900px)  {
+    #home-slider {
+        padding: 50px 0px 60px 0px;
+    }
+
+    #content-slider h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #content-slider {
+        padding: 0px 20px 0px 50px;
+    }
+
+    #content-slider .fas {
+        margin-right: 10px;
+    }
+
+    .informatie_3-home {
+        margin-bottom: 30px !important;
+    }
+
+    .slider-link {
+        color: white;
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    #home-slider {
+        padding: 100px 0px 100px 0px;
+    }
+
+    #content-slider h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #content-slider {
+        padding: 0px 20px 0px 50px;
+        max-width: 1600px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #content-slider .fas {
+        margin-right: 10px;
+    }
+
+    .informatie_3-home {
+        margin-bottom: 30px !important;
+    }
+
+    .slider-link {
+        color: white;
+        font-size: 20px !important;
+    }
+}
+
+/* START: ASSORTIMENT */
+.wp-block-preformatted {
+    white-space: unset;
+}
+
+.page-id-1187 .woocommerce ul.products li.product .button {
+    display: none;
+}
+
+.page-id-1187 .woocommerce ul.products li.product a img {
+    margin-bottom: 20px;
+}
+
+.page-id-1187 .woocommerce ul.products li.product h2 {
+    font-size: 30px !important;
+    color: $mainColor !important;
+    font-weight: 600;
+}
+
+.page-id-1187 .woocommerce ul.products li.product .price {
+    text-indent: -9999px;
+    line-height: 0; /* Collapse the original line */
+  }
+  
+.page-id-1187 .woocommerce ul.products li.product .price::after {
+    content: "Bekijk product >";
+    text-indent: 0;
+    display: block;
+    line-height: initial; /* New content takes up original line height */
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #bdbdbd;
+    margin-top: 10px;
+    transition:all 0.5 ease;
+}
+
+.page-id-1187 .woocommerce ul.products li.product .price:hover::after {
+    text-decoration-color: black;
+    transition:all 0.5s ease;
+}
+
+.titel-assortiment {
+    color: $mainColor;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* START RESPONSIVE: ASSORTIMENT */
+@media only screen and (max-width: 900px) {
+    #assortiment {
+        padding: 50px 25px 50px 25px;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 900px)  {
+    #assortiment {
+        padding: 75px 25px 75px 25px;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    #assortiment {
+        padding: 100px 25px 100px 25px;
+        max-width: 1600px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* START: TEKST MET AFBEELDING ALS ACHTERGROND */
+.titel-p3 {
+    color: white;
+    font-weight: 500;
+}
+
+.informatie-p3 {
+    color: white;
+}
+
+.button-p3 {
+    color: white;
+}
+
+/* START RESPONSIVE: TEKST MET AFBEELDING ALS ACHTERGROND */
+@media only screen and (max-width: 900px) {
+    #p3-home-img {
+        padding: 70px 15px 70px 15px;
+    }
+
+    #content-p3 {
+        text-align: center;
+    }
+
+    .informatie-p3 {
+        margin-bottom: 50px;
+        margin-top: 35px;
+    }
+
+    #p3-home {
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 900px)  {
+    #p3-home-img {
+        padding: 70px 15px 70px 15px;
+    }
+
+    #content-p3 {
+        text-align: center;
+    }
+
+    .informatie-p3 {
+        margin-bottom: 50px;
+        margin-top: 35px;
+        padding: 0px 100px 0px 100px;
+        max-width: 70%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #p3-home {
+        padding-bottom: 75px;
+    }
+
+    .button-p3 {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #p3-home-img {
+        padding: 100px 15px 100px 15px;
+    }
+
+    #content-p3 {
+        text-align: center;
+    }
+
+    .informatie-p3 {
+        margin-bottom: 50px;
+        margin-top: 35px;
+        max-width: 50%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #p3-home {
+        padding-bottom: 100px;
+        max-width: 1400px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button-p3 {
+        font-size: 18px !important;
+    }
+}
+
+/* START: CALL TO ACTION */
+.link-image-p4 {
+    color: white;
+}
+
+.link-image-p4:hover {
+    color: $mainColor;
+}
+
+.titel-p4 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+#p4-home {
+    background-color: #DADADA;
+}
+
+/* START RESPONSIVE: CALL-TO-ACTION */
+
+@media only screen and (max-width: 700px) {
+    .link-image-p4 {
+        font-size: 40px;
+    }
+
+    #p4-c1 a,
+    #p4-c2 a,
+    #p4-c3 a {
+        padding: 70px 0;
+        text-align: center;
+        display: block;
+    }
+
+    #p4-home {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 700px)  {
+    .link-image-p4 {
+        font-size: 40px;
+    }
+
+    #p4-c1 a,
+    #p4-c2 a,
+    #p4-c3 a {
+        padding: 120px 0;
+        text-align: center;
+        display: block;
+    }
+
+    #p4-c1,
+    #p4-c2,
+    #p4-c3 {
+        float: left;
+        width: 30%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    #p4-columns:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    #p4-home {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .link-image-p4 {
+        font-size: 40px;
+    }
+
+    #p4-c1 a,
+    #p4-c2 a,
+    #p4-c3 a {
+        padding: 120px 0;
+        text-align: center;
+        display: block;
+    }
+
+    #p4-c1,
+    #p4-c2,
+    #p4-c3 {
+        float: left;
+        width: 30%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    #p4-columns:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    #p4-columns {
+        max-width: 1600px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #p4-home {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+}
