@@ -38,6 +38,7 @@ $mainColor : #F47F22;
     background-color: $mainColor !important;
     border: 1px solid $mainColor !important;
     border-radius: 2px !important;
+    color: white;
     font-family: $mainFont;
 }
 
@@ -810,6 +811,9 @@ $mainColor : #F47F22;
 }
 
 /* START: CONTACT */
+.page-id-1275 #page {
+  background-color: #ECECEC;
+}
 .titel-contact {
   font-weight: 700;
 }
@@ -1045,4 +1049,144 @@ div.wpforms-container-full .wpforms-form button[type=submit]:hover {
   .titel_slider-contact {
     border-bottom: 8px solid $mainColor;
   }
+}
+
+/* Over ons */
+.titel-overons {
+  color: black;
+  font-family: $mainFont;
+  text-transform: uppercase;
+  display: inline;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.informatie-overons,
+.informatie-overons-2 {
+  color: black;
+  font-family: $mainFont;
+}
+
+.titel-overons:before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 1px;
+  bottom: 0;
+  border-bottom: 3px solid $mainColor;
+}
+
+.informatie-overons {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+#afbeelding-overons {
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,.3));
+}
+
+/* Over ons responsive */
+@media only screen and (max-width: 900px) {
+  #over-ons {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #afbeelding-overons {
+    margin-top: 50px;
+    width: 100%;
+    max-height: 350px;
+    height: 100%;
+    max-width: 400px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 900px) {
+  #over-ons-c1,
+#over-ons-c2 {
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #over-ons::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #over-ons {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #over-ons-c1 {
+    text-align: center;
+  }
+  #afbeelding-overons {
+    max-width: 700px !important;
+    width: 100%;
+  }
+  .informatie-overons-2 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  #over-ons-c1,
+#over-ons-c2 {
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #over-ons::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #over-ons {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 1600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #over-ons-c1 {
+    text-align: center;
+  }
+  #afbeelding-overons {
+    max-width: 530px !important;
+    width: 100%;
+  }
+  .informatie-overons-2 {
+    margin-bottom: 40px;
+  }
+}
+
+.col-md-6 {
+  background-color: black;
+}
+
+.sydney-credits {
+  max-width: 1600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0px 10px 0px;
+  border-top: 1px solid rgb(56, 56, 56);
+}
+
+.sydney-credits a,
+.sydney-credits {
+  color: white;
+}
+
+.sydney-credits a:hover {
+  color: $mainColor;
 }
