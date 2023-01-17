@@ -16,6 +16,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700;800&display=swap');
 </style>
 
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>

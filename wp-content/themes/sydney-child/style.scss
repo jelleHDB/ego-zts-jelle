@@ -393,9 +393,10 @@ $mainColor : #F47F22;
 }
 
 .page-id-1187 .woocommerce ul.products li.product h2 {
-    font-size: 30px !important;
+    font-size: 25px !important;
     color: $mainColor !important;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .page-id-1187 .woocommerce ul.products li.product .price {
@@ -454,6 +455,7 @@ $mainColor : #F47F22;
 .titel-p3 {
     color: white;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .informatie-p3 {
@@ -546,6 +548,7 @@ $mainColor : #F47F22;
 /* START: CALL TO ACTION */
 .link-image-p4 {
     color: white;
+    text-transform: uppercase;
 }
 
 .link-image-p4:hover {
@@ -656,4 +659,390 @@ $mainColor : #F47F22;
         padding-top: 100px;
         padding-bottom: 120px;
     }
+}
+
+/* START: PRODUCTEN PAGE */
+#primary {
+  background-color: white;
+}
+
+#main {
+  max-width: 1600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.woocommerce ul.products li.product .button:hover {
+  fill: $mainColor;
+}
+
+.post-type-archive-product ul.products li.product h2 {
+  font-size: 25px !important;
+    color: #F47F22 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.woocommerce div.product .product-gallery-summary .entry-title  {
+  text-transform: uppercase !important;
+}
+
+.post-type-archive-product ul.products li.product .price {
+  font-size: 30px;
+}
+
+.woocommerce ul.products li.product .button {
+  font-size: 15px !important;
+}
+
+/* START: PAGING */
+.woocommerce nav.woocommerce-pagination ul li .page-numbers.current {
+  background-color: rgba(255, 0, 0, 0) !important;
+  color: $mainColor !important;
+  border: 1px solid $mainColor;
+}
+
+.woocommerce nav.woocommerce-pagination ul li .page-numbers {
+  line-height: 45px !important;
+  font-size: 20px !important;
+}
+
+.woocommerce nav.woocommerce-pagination ul li .page-numbers {
+  background-color: $mainColor !important;
+  color: white !important;
+  border: 1px solid $mainColor;
+}
+
+.woocommerce nav.woocommerce-pagination ul li .page-numbers:hover {
+  background-color: rgba(255, 0, 0, 0) !important;
+  color: $mainColor !important;
+  border: 1px solid $mainColor;
+}
+
+.woocommerce nav.woocommerce-pagination ul li,
+.woocommerce nav.woocommerce-pagination ul, 
+.woocommerce nav.woocommerce-pagination ul li {
+  border: 0px solid white;
+}
+
+.woocommerce nav.woocommerce-pagination {
+  margin-bottom: 70px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .header-elements {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #site-header-cart {
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .product-gallery-summary .sydney-single-addtocart-wrapper {
+    flex-direction: column;
+  }
+
+  .product-gallery-summary .sydney-single-addtocart-wrapper button {
+    margin-top: 20px;
+  }
+}
+
+.product-gallery-summary .sydney-single-addtocart-wrapper button,
+.submit,
+.checkout-button {
+  background-color: $mainColor !important;
+  border: 1px solid $mainColor !important;
+  color: white !important;
+}
+
+
+.product-gallery-summary .sydney-single-addtocart-wrapper button:hover,
+.submit:hover,
+.checkout-button:hover {
+  background-color: rgba(255, 0, 0, 0) !important;
+  color: $mainColor !important;
+}
+
+
+.cart-amount {
+  background-color: $mainColor;
+}
+
+.woocommerce a {
+  color: $mainColor;
+}
+
+/* START: OVERIGE WOOCOMMERCE PAGINA'S */
+.page-id-9 #primary,
+.page-id-3 #primary,
+.page-id-10 #primary {
+  width: 100%;
+}
+
+.page-id-9 #primary #main,
+.page-id-3 #primary #main,
+.page-id-10 #primary #main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* START: AFREKEN PAGINA */
+@media only screen and (max-width: 768px) {
+  .page-id-7 .coupon .button {
+    float: none !important;
+    width: 100% !important;
+    margin-top: 60px;
+  }
+}
+
+.page-id-7 .coupon .button {
+  color: white !important;
+}
+
+.page-id-7 .coupon .button:hover {
+  color: $mainColor !important;
+}
+
+/* START: CONTACT */
+.titel-contact {
+  font-weight: 700;
+}
+
+#slider-contact {
+  width: 100%;
+}
+
+.titel-bezoekadres,
+.titel-postadres,
+.titel-openingstijden-contact {
+  font-weight: 800;
+}
+
+.titel_slider-contact {
+  color: white;
+  text-transform: uppercase;
+  margin: 0px;
+  display: inline-block;
+}
+
+#bezoekadres-div p,
+#postadres-div p,
+#telefoonnummer-div p,
+#openingstijden-div p {
+  margin: 0px;
+}
+
+#telefoonnummer-div a {
+  color: $mainColor;
+}
+
+div.wpforms-container-full .wpforms-form input[type=text],
+div.wpforms-container-full .wpforms-form input[type=email]{
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+  padding: 4px 20px 4px 20px !important;
+}
+
+div.wpforms-container-full .wpforms-form input[type=text],
+div.wpforms-container-full .wpforms-form input[type=email] {
+  height: 50px !important;
+}
+
+div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium  {
+  height: 200px !important;
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+  padding: 16px 20px 8px 20px !important;
+}
+
+#googlemaps-contact p {
+  margin: 0px;
+}
+
+#googlemaps-contact p iframe {
+  width: 100%;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+  background-color: $mainColor !important;
+  border: 1px solid $mainColor !important;
+  color: white !important;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit]:hover {
+  background-color: rgba(255, 0, 0, 0) !important;
+  border: 1px solid $mainColor !important;
+  color: $mainColor !important;
+}
+
+#contact-gegevens a:hover {
+  color: black;
+}
+
+.bedrijfsnaam-contact {
+  font-weight: 600;
+}
+
+/* START RESPONSIVE: CONTACT */
+@media only screen and (max-width: 900px) {
+  #slider-contact {
+    height: 300px;
+  }
+
+  .titel_slider-contact {
+    text-align: center;
+    font-size: 10vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+  }
+
+  #contact-gegevens {
+    padding: 50px 25px 50px 25px;
+  }
+
+  #contact-gegevens-c1 div {
+    margin: 20px 0px 20px 0px;
+  }
+
+  .link-phone-contact {
+    display: block;
+  }
+
+  div.wpforms-container-full .wpforms-form input[type=text],
+  div.wpforms-container-full .wpforms-form input[type=email] {
+    max-width: 100% !important;
+  }
+
+  .titel_slider-contact {
+    border-bottom: 4px solid $mainColor;
+  }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 900px)  {
+  #slider-contact {
+    height: 500px;
+  }
+
+  .titel_slider-contact {
+    text-align: center;
+    font-size: 10vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+  }
+
+  #contact-gegevens {
+    padding: 50px 25px 50px 25px;
+  }
+
+  #contact-gegevens-c1 div {
+    margin: 20px 0px 20px 0px;
+  }
+
+  #contact-gegevens-c1,
+  #contact-gegevens-c2 {
+    float: left;
+    width: 50%;
+  }
+
+  #contact-gegevens:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .link-phone-contact {
+    display: block;
+  }
+
+  .titel_slider-contact {
+    border-bottom: 8px solid $mainColor;
+  }
+
+  div.wpforms-container-full .wpforms-form input[type=text],
+  div.wpforms-container-full .wpforms-form input[type=email],
+  div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
+    max-width: 540px !important;
+    width: 100% !important;
+  }
+
+  .titel-contact {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  #slider-contact {
+    height: 700px;
+  }
+
+  .titel_slider-contact {
+    text-align: center;
+    font-size: 5vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+  }
+
+  #contact-gegevens {
+    padding: 50px 25px 50px 25px;
+  }
+
+  #contact-gegevens-c1 div {
+    margin: 20px 0px 20px 0px;
+  }
+
+  #contact-gegevens-c1,
+  #contact-gegevens-c2 {
+    float: left;
+    width: 50%;
+  }
+
+  #contact-gegevens:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #contact-gegevens {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .link-phone-contact {
+    display: block;
+  }
+
+  div.wpforms-container-full .wpforms-form input[type=text],
+  div.wpforms-container-full .wpforms-form input[type=email],
+  div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
+    max-width: 540px !important;
+    width: 100% !important;
+  }
+
+  #contact-gegevens p,
+  #contact-gegevens a {
+    font-size: 18px;
+  }
+
+  .titel-contact {
+    font-size: 50px;
+    
+  }
+
+  .titel_slider-contact {
+    border-bottom: 8px solid $mainColor;
+  }
 }

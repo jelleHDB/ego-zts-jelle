@@ -56,7 +56,7 @@ get_header(); ?>
     </div>
 </div>
 <div id="p3-home">
-    <div id="p3-home-img"  style="background-image: -webkit-linear-gradient(right,rgb(0 0 0 / 78%) 0%,rgb(0 0 0 / 88%) 100%), url(<?php the_field('achtergrond_afbeelding-p3'); ?>); ">
+    <div id="p3-home-img"  style="background-image: -webkit-linear-gradient(right,rgb(0 0 0 / 65%) 0%,rgb(0 0 0 / 65%) 100%), url(<?php the_field('achtergrond_afbeelding-p3'); ?>); ">
         <div id="content-p3">
             <?php if( get_field('titel-p3') ): ?>
                 <h2 class="titel-p3"><?php the_field('titel-p3'); ?></h2>
